@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/temp_formula"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:gravity="end|bottom"
+        android:hint="0"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/temp_result"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ac_btn"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/allClear"
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/delete"
+                android:id="@+id/delete_btn" />
+
+            <Button
+                android:id="@+id/percent_btn"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="@string/precent"
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/devide"
+                android:id="@+id/divide_btn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/seven"
+                android:id="@+id/num_seven" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/eight"
+                android:id="@+id/num_eight" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/nine"
+                android:id="@+id/num_nine" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/multi"
+                android:id="@+id/multiply_btn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/four"
+                android:id="@+id/num_four" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/five"
+                android:id="@+id/num_five" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/six"
+                android:id="@+id/num_six" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/subtract"
+                android:id="@+id/subtract_btn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/one"
+                android:id="@+id/num_one" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/two"
+                android:id="@+id/num_two" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/three"
+                android:id="@+id/num_three" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/plus"
+                android:id="@+id/plus_btn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/num_zero"
+                android:layout_width="5dp"
+                android:layout_height="70dp"
+                android:layout_weight="2"
+                android:text="@string/zero"
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/dot"
+                android:id="@+id/dot_btn" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:text="@string/equal"
+                android:id="@+id/equal_btn" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </TableRow>
+</LinearLayout>
